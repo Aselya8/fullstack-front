@@ -40,6 +40,7 @@ export default function Home() {
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
+                    
 
                     <tbody>
                         {users.map((user, index) => (
