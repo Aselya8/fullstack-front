@@ -21,7 +21,6 @@ function App() {
           <Route exact path="/viewuser/:id" element={<ViewUser />} />
         </Routes>
       </Router>
-      
     </div>
   );
 }
