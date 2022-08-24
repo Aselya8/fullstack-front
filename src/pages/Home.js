@@ -33,7 +33,7 @@ export default function Home() {
 
                     <thead>
                         <tr>
-                            <th scope="col">S.N</th>
+                            <th scope="col"></th>
                             <th scope="col">Name</th>
                             <th scope="col">Username</th>
                             <th scope="col">Email</th>
@@ -54,21 +54,21 @@ export default function Home() {
                                 <td>
 
                                     <Link
-                                        className="btn btn-primary mx-2"
+                                        className="btn btn-info mx-2"
                                         to={`/viewuser/${user.id}`}
                                     >
                                         View
                                     </Link>
 
                                     <Link
-                                        className="btn btn-outline-primary mx-2"
+                                        className="btn btn-outline-info mx-2"
                                         to={`/edituser/${user.id}`}
                                     >
                                         Edit
                                     </Link>
 
                                     <button
-                                        className="btn btn-danger mx-2"
+                                        className="btn bg-warning mx-2"
                                         onClick={() => deleteUser(user.id)}
                                     >
                                         Delete
